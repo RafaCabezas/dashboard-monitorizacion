@@ -8,7 +8,7 @@ interface TemperatureMapProps {
     unit: 'celsius' | 'fahrenheit';
 }
 
-const TemperatureMap: React.FC<TemperatureMapProps> = ({ unit }) => {
+const TemperatureMap: React.FC<TemperatureMapProps> = ({ }) => {
     const { cityData, loading, error, refetch } = useTemperatureMap();
 
     // Función para crear iconos de diferentes colores

@@ -17,7 +17,7 @@ interface TemperatureChartProps {
     unit: 'celsius' | 'fahrenheit';
 }
 
-const TemperatureChart: React.FC<TemperatureChartProps> = ({ unit }) => {
+const TemperatureChart: React.FC<TemperatureChartProps> = ({ }) => {
 
     const { data, loading, error, cities, refetch } = useTemperatureData();
 

@@ -18,7 +18,7 @@ const Dashboard: React.FC<DashboardProps> = ({ }) => {
                 Dashboard de Monitorización
             </h1>
 
-            {/* <UnitToggle unit={unit} setUnit={setUnit} /> */}
+            <UnitToggle unit={unit} setUnit={setUnit} />
 
             <TemperatureChart unit={unit} />
             <TemperatureMap unit={unit} />

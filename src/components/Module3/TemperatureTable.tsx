@@ -6,7 +6,7 @@ interface TemperatureTableProps {
     unit: 'celsius' | 'fahrenheit';
 }
 
-const TemperatureTable: React.FC<TemperatureTableProps> = ({ unit }) => {
+const TemperatureTable: React.FC<TemperatureTableProps> = ({ }) => {
 
     const { rows, loading, error } = useTemperatureTable();
 
